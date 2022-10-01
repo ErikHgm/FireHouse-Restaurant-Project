@@ -65,9 +65,13 @@
         <ul>
           <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
           <li><a class="nav-link scrollto" href="{% url 'menu' %}">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#signup">SignUp</a></li>
-          <li><a class="nav-link scrollto" href="#login">Login</a></li>
+          {% if user.is_authenticated %}
+          <li><a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a></li>
           <li><a class="nav-link scrollto" href="#myBookings">My Bookings</a></li>
+          {% else %}
+          <li><a class="nav-link scrollto" href="{% url 'account_signup' %}">SignUp</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'account_login' %}">Login</a></li>
+          {% endif %}
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
