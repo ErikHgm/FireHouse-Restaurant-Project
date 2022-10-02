@@ -8,3 +8,7 @@ def home(request):
 
 def menu_page(request):
     return render(request, 'menu_page.html')
+
+
+def booking_page(request):
+    return render(request, 'booking.html')
