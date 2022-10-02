@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+  <div class="container height mt-5 pt-5">
+    <div class="row">
+      <div class="col-md-8 mt-3 offset-md-2">
+        <h3>Manage your Bookings</h3>
+        <table>
+          {% for booking in bookings %}
+          <tr>
+            <td>Name: {{ booking.name }}</td>
+            <td>Email: {{ booking.email }}</td>
+            <td>Email: {{ booking.phone }}</td>
+            <td>Email: {{ booking.date }}</td>
+            <td>Email: {{ booking.time }}</td>
+            <td>Email: {{ booking.guests }}</td>
+          </tr>
+          {% empty %}
+          <td>You have no reservations currently</td>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
