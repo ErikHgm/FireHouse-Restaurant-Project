@@ -49,7 +49,7 @@ class Booking(models.Model):
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="user_booking")
     name = models.CharField(max_length=70)
-    email = models.EmailField(blank=True)
+    email = models.EmailField()
     phone = models.IntegerField(blank=True)
     guests = models.CharField(max_length=2, choices=GUESTS, default='4')
     time = models.CharField(max_length=30, choices=TIME, default='19:00')
