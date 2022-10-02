@@ -39,46 +39,56 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
-<body>
-
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+<!-- ======= Message Alert Bar ======= -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      {% for message in messages %}
+      <div class="alert {{ message.tags }} alert-dismissible fade show alert-bar" id="msg" role="alert">
+        {{ message | safe }}
       </div>
+      {% endfor %}
     </div>
   </div>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-cente">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="{% url 'home' %}">FireHouse</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{% url 'menu' %}">Menu</a></li>
-          {% if user.is_authenticated %}
-          <li><a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a></li>
-          <li><a class="nav-link scrollto" href="#myBookings">My Bookings</a></li>
-          {% else %}
-          <li><a class="nav-link scrollto" href="{% url 'account_signup' %}">SignUp</a></li>
-          <li><a class="nav-link scrollto" href="{% url 'account_login' %}">Login</a></li>
-          {% endif %}
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
-
+</div>
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
+      <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
     </div>
-  </header><!-- End Header -->
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-cente">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+    <h1 class="logo me-auto me-lg-0"><a href="{% url 'home' %}">FireHouse</a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'menu' %}">Menu</a></li>
+        {% if user.is_authenticated %}
+        <li><a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a></li>
+        <li><a class="nav-link scrollto" href="#myBookings">My Bookings</a></li>
+        {% else %}
+        <li><a class="nav-link scrollto" href="{% url 'account_signup' %}">SignUp</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'account_login' %}">Login</a></li>
+        {% endif %}
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+    <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+  </div>
+
+</header><!-- End Header -->
+
+<body>
   {% block hero %}
 
   {% endblock %}
@@ -147,6 +157,14 @@
 
   <!-- Template Main JS File -->
   <script src="{% static 'js/main.js' %}"></script>
+
+<script>
+    setTimeout(function () {
+      let messages = document.getElementById('msg');
+      let alert = new bootstrap.Alert(messages);
+      alert.close();
+    }, 2000);
+  </script>
 
 </body>
 
