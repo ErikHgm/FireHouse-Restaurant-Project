@@ -22,3 +22,12 @@ def booking_page(request):
         'form': form
     }
     return render(request, 'booking.html', context)
+
+
+def mybookings_page(request):
+    bookings = Booking.objects.all()
+
+    context = {
+       'bookings': bookings
+        }
+    return render(request, 'mybookings.html', context)
