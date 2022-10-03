@@ -13,10 +13,12 @@ def menu_page(request):
 
 def booking_page(request):
     if request.method == 'POST':
-        form = BookingForm(request.POST)
+        form = BookingForm(data=request.POST)
         if form.is_valid():
-            form.save()
-            return redirect('home')
+            booking_form = form.save(commit=False)
+            booking_form.user = request.user
+            booking_form.save()
+            return redirect('mybookings_page')
     form = BookingForm()
     context = {
         'form': form

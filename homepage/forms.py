@@ -20,7 +20,6 @@ class BookingForm(forms.ModelForm):
     """
     class Meta:
         model = Booking
-        fields = '__all__'
         exclude = ('user', )
         widgets = {
             'date': DateInput(),
