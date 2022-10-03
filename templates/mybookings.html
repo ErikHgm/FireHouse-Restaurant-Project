@@ -15,6 +15,11 @@
             <td>Email: {{ booking.date }}</td>
             <td>Email: {{ booking.time }}</td>
             <td>Email: {{ booking.guests }}</td>
+            <td>
+              <a href="/changebooking/{{booking.id}}">
+                <button class="btn book-a-table-btn scrollto d-none d-lg-flex">Change booking</button>
+              </a>
+            </td>
           </tr>
           {% empty %}
           <td>You have no reservations currently</td>
