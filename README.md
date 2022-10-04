@@ -1,10 +1,8 @@
 <h1 align="center">FireHouse Restaurant</h1>
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="static/img/readme/main.png"></h2>
 
          
-
-
-[View the live project here.]()
+[View the live project here.](https://firehouse-restaurant.herokuapp.com/)
 
 
 ## User Experience (UX)
