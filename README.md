@@ -67,12 +67,40 @@ The website is for restaurant customers that are looking for a nice and pleasant
 
 ## Technologies Used
 
-### Languages Used
+### Languages
+   - Python
+   - JavaScript
+   - HTML5
+   - CSS3
+   
 
+### Frameworks, Libraries & Programs
+- Python Built-in Modules:
+  - [os](https://docs.python.org/3/library/os.html) 
 
+- External Packages
+  - [cloudinary](https://pypi.org/project/cloudinary/1.29.0/) 
+  - [crispy-bootstrap5](https://pypi.org/project/crispy-bootstrap5/0.6/) 
+  - [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) 
+  - [dj3-cloudinary-storage](https://pypi.org/project/dj3-cloudinary-storage/0.0.6/) 
+  - [Django](https://pypi.org/project/Django/3.2.14/) 
+  - [django-allauth](https://pypi.org/project/django-allauth/0.51.0/)
+  - [django-crispy-forms](https://pypi.org/project/django-crispy-forms/1.14.0/) 
+  - [gunicorn](https://pypi.org/project/gunicorn/20.1.0/)
+  - [psycopg2](https://pypi.org/project/psycopg2/2.9.3/) 
 
-### Frameworks, Libraries & Programs Used
+### Programs & Tools
 
+- [Google Fonts:](https://fonts.google.com/)
+  
+- [Bootstrap](https://getbootstrap.com/)
+
+- [GitPod:](https://gitpod.io/)
+  
+- [GitHub:](https://github.com/)
+
+- [Balsamiq:](https://balsamiq.com/)
+ 
 
 ## Testing
 
