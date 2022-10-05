@@ -8,7 +8,7 @@ The website is for restaurant customers that are looking for a nice and pleasant
 
 
 ## TOC
-
+___
 - [User Experience (UX)](#user-experience-ux)
   - [User Stories](#user-stories)
   - [Agile Methodology](#agile-methodology)
@@ -34,6 +34,7 @@ The website is for restaurant customers that are looking for a nice and pleasant
   - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
+___
 
 -   ### User stories
 
@@ -61,15 +62,52 @@ The website is for restaurant customers that are looking for a nice and pleasant
 
 -   ### Database Schema
 
-## Features
-<details>
-   
+
+## Features  
+___
+<details>  
+
+### Navbar  
+- Info  
+![Navbar](/docs/img/features/navbar.png)  
+
+### Hero  
+- Info  
+![Navbar](/docs/img/features/hero.png)  
+
+### About
+- Info  
+![Navbar](/docs/img/features/about.png)  
+
+### Testimonials  
+- Info  
+![Testimonials](/docs/img/features/testimonials.png)  
+
+### Gallery  
+- Info  
+![Gallery](/docs/img/features/gallery.png)  
+
+### Contact  
+- Info   
+![Navbar](/docs/img/features/contact.png)  
+
+### Footer  
+- Info   
+![Navbar](/docs/img/features/footer.png)  
+
+### Account signup/login  
+- Info   
+![Navbar](/docs/img/features/signup.png)
+![Navbar](/docs/img/features/login.png)  
+
 </details>
+
+
 
 ### Future Features
 
 ## Technologies Used
-
+___
 ### Languages
    - Python
    - JavaScript
@@ -107,6 +145,7 @@ The website is for restaurant customers that are looking for a nice and pleasant
  
 
 ## Testing
+___
 A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md)
 
 ### Bugs
@@ -142,6 +181,7 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 
 
 ## Deployment
+___
 
 ### Forking the GitHub Repository
 1. Go to [the project repository](https://github.com/ErikHgm/FireHouse-Restaurant-Project)
@@ -194,7 +234,7 @@ In the Deploy tab:
 
 
 ## Credits
-
+___
 ### Code
   - [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/) was the Boostrap theme used in the project.
   - [Django Documenation](https://www.djangoproject.com/) was used to provide examples of code solutions and Django functionality.
