@@ -148,15 +148,21 @@ The website is for restaurant customers that are looking for a nice and pleasant
 ## Credits
 
 ### Code
-
-
+  - [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/) was the Boostrap theme used in the project.
+  - [Django Documenation](https://www.djangoproject.com/) was used to provide examples of code solutions and Django functionality.
+  - [Bootstrap Documenation](https://getbootstrap.com/) was used to provide examples of Bootstrap functionality and building blocks.
+  - [Code Institute walkthrough](https://codeinstitute.net/) as inspiration and code examples, the code institute walkthroughs "Hello Django" and "I Think Therefore I Blog" was used.
 
 ### Content
-
+  - The texts that are used for testimonials comes from [Tripadvisor](https://www.tripadvisor.com/).
+  - The texts that are used for the about section comes from [Royal35](https://royal35steakhouse.com/) website.
 
 
 ### Media
-
-
+  - The images in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
+  - The video in the project comes from the [Restaurantly Boostrap theme](https://bootstrapmade.com/restaurantly-restaurant-template/)
 
 ### Acknowledgements
+  - The tutor support team at Code Institute for their support.
+  - My Code Institute Mentor for feedback and suggestions.
+  - The Code Institute Slack community.
