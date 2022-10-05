@@ -2,7 +2,7 @@
 <div align="center"><img src="docs/img/main.png"></div>
 
 This website is made for a fictional New York restaurant called FireHouse restaurant. It is the fourth project in the Code institute Full Stack Developer program. 
-The website is for restaurant customers that are looking for a nice and pleasant place to eat and hang out at while in New York, that has great food and a cool interior and atmosphere. The customer can create an account so that they are able make a reservation directly on the website.
+The website is for restaurant customers that are looking for a nice and pleasant place to eat and hang out at while in New York, that has great food and a cool interior and atmosphere. Furthermore, the website comes with an account registration and booking functionality so that customers are able to make and manage their reservations directly through the website.
          
 [View the live project here.](https://firehouse-restaurant.herokuapp.com/)
 
