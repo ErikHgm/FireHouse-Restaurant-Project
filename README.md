@@ -1,5 +1,5 @@
 <h1 align="center">FireHouse Restaurant</h1>
-<h2 align="center"><img src="static/img/readme/main.png"></h2>
+<div align="center"><img src="docs/img/main.png"></div>
 
 This website is made for a fictional New York restaurant called FireHouse restaurant. It is the fourth project in the Code institute Full Stack Developer program. 
 The website is for restaurant customers that are looking for a nice and pleasant place to eat and hang out at while in New York, that has great food and a cool interior and atmosphere. The customer can create an account so that they are able make a reservation directly on the website.
@@ -62,6 +62,9 @@ The website is for restaurant customers that are looking for a nice and pleasant
 -   ### Database Schema
 
 ## Features
+<details>
+   
+</details>
 
 ### Future Features
 
@@ -103,13 +106,18 @@ The website is for restaurant customers that are looking for a nice and pleasant
  
 
 ## Testing
+A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md)
 
 ### Bugs
 
 #### Fixed Bugs
 
-#### Remaining Bugs
+|Bug | Solution | Status |
+|----|:---------|:-------|
+|Integrity error| Update the booking_page function | Fixed |
 
+#### Remaining Bugs
+  - No known bugs remaining
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -166,3 +174,5 @@ The website is for restaurant customers that are looking for a nice and pleasant
   - The tutor support team at Code Institute for their support.
   - My Code Institute Mentor for feedback and suggestions.
   - The Code Institute Slack community.
+
+  [Back to top](#toc)
