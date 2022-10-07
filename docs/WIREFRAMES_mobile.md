@@ -3,6 +3,9 @@ Return to [README.md](/README.md)
 ### MainPage  
 ![MainPage](/docs/img/wireframes/main_mobile.png)  
 
+### Navbar 
+![Navbar](/docs/img/wireframes/navbar_mobile.png)  
+
 ### MenuPage  
 ![MenuPage](/docs/img/wireframes/menu_mobile.png)  
 
