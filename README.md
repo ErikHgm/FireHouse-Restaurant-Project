@@ -53,9 +53,10 @@ The website is for restaurant customers that are looking for a nice and pleasant
         -  As a frequent visitor I can change or cancel my booking in the login page.
 
 -   ### Agile methodology
+    - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.
 
 -   ### Design
-
+    - Since this restaurant is aimed to target the 
 
 -   ### Wireframes  
     - A separate document for the wireframes can be viewed here: 
