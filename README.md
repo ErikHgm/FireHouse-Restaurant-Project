@@ -56,7 +56,14 @@ The website is for restaurant customers that are looking for a nice and pleasant
     - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.  
 
 -   ### Design
-    - The theme for the project were chosen in accordance with the intended target market in mind for the restaurant. With its fancy looks and feel, dark colors and luxurious details and effects, the theme fits perfect for the goal of giving the visitor the impression that this is a very high quality restaurant. The main colors are overall black to provide an elegant look and feel. Furthermore, elements such as buttons, icons, symbols, links and headings are made in gold color that follows the pattern of elegance and adds to the premier look and feel of the webpage.  
+    - The theme for the project were chosen in accordance with the intended target market in mind for the restaurant. With its fancy looks and feel, dark colors and luxurious details and effects, the theme fits perfect for the goal of giving the visitor the impression that this is a very high quality restaurant. 
+    
+     - Colors  
+        - The main colors are overall black to provide an elegant look and feel. Furthermore, elements such as buttons, icons, symbols, links and headings are made in gold color that follows the pattern of elegance and adds to the premier look and feel of the webpage.  
+     - Font  
+        - The fonts in the theme are clear and modern and contribute perfectly to the overall elegant setting.  
+     - Images  
+        - The images in the theme provide great content and presentation of the restaurant and serves as an enticement for the visitors.  
 
 -   ### Wireframes  
     - A separate document for the wireframes can be viewed here: 
