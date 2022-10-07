@@ -57,7 +57,10 @@ The website is for restaurant customers that are looking for a nice and pleasant
 -   ### Design
 
 
--   ### Wireframes
+-   ### Wireframes  
+    - A separate document for the wireframes can be viewed here: 
+      - [For Desktop view](docs/WIREFRAMES.md)
+      - [For Mobile view](docs/WIREFRAMES_mobile.md)    
 
 -   ### Database Schema
 
