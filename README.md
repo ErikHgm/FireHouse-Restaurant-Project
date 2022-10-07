@@ -70,8 +70,9 @@ The website is for restaurant customers that are looking for a nice and pleasant
       - [For Desktop view](docs/WIREFRAMES.md)
       - [For Mobile view](docs/WIREFRAMES_mobile.md)    
 
--   ### Database Schema
-
+-   ### Database Schema  
+    - The database design schema can be viewed below. It consists of a Booking model with a foreignKey of User that relates to the Django standard User model class.  
+    ![dbschema](docs/img/db_schema.png)  
 
 ## Features  
 <details>  
