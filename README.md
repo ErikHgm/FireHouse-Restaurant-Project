@@ -53,10 +53,10 @@ The website is for restaurant customers that are looking for a nice and pleasant
         -  As a frequent visitor I can change or cancel my booking in the login page.
 
 -   ### Agile methodology
-    - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.
+    - The principles of agile methodology were utilized during the project. By assigning user stories to issues and taking advantage of the GitHub Kanban board functionality, the necessary goals and priorities throughout the project could be well defined. In addition, labels were used to further define the priority of eacn user story in the Kanban board.  
 
 -   ### Design
-    - Since this restaurant is aimed to target the 
+    - The theme for the project were chosen in accordance with the intended target market in mind for the restaurant. With its fancy looks and feel, dark colors and luxurious details and effects, the theme fits perfect for the goal of giving the visitor the impression that this is a very high quality restaurant. The main colors are overall black to provide an elegant look and feel. Furthermore, elements such as buttons, icons, symbols, links and headings are made in gold color that follows the pattern of elegance and adds to the premier look and feel of the webpage.  
 
 -   ### Wireframes  
     - A separate document for the wireframes can be viewed here: 
