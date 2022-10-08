@@ -15,6 +15,7 @@ def booking_page(request):
             booking_form = form.save(commit=False)
             booking_form.user = request.user
             booking_form.save()
+            messages.success(request, 'Booking is confirmed')
             return redirect('mybookings_page')
     form = BookingForm()
     context = {
