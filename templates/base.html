@@ -78,6 +78,7 @@
         <li><a class="nav-link scrollto" href="{% url 'home' %}#gallery">Gallery</a></li>
         <li><a class="nav-link scrollto" href="{% url 'home' %}#chefs">Chefs</a></li>
         <li><a class="nav-link scrollto" href="{% url 'home' %}#contact">Contact</a></li>
+        <!-- Only display the logout and my booking links to logged in users -->
         {% if user.is_authenticated %}
         <li><a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a></li>
         <li><a class="nav-link scrollto" href="{% url 'mybookings_page' %}">My Bookings</a></li>
