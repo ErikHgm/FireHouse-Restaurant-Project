@@ -34,10 +34,12 @@ def mybookings_page(request):
         }
         return render(request, 'mybookings.html', context)
     else:
-        return redirect('home')
+        return redirect('../accounts/signup')
 
 def edit_booking(request, booking_id):
     booking = get_object_or_404(Booking, id=booking_id)
+    if request.user != booking.user:
+        return redirect('mybookings_page')       
     if request.method == 'POST':
         form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
