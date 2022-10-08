@@ -39,7 +39,7 @@ def mybookings_page(request):
 def edit_booking(request, booking_id):
     booking = get_object_or_404(Booking, id=booking_id)
     if request.user != booking.user:
-        return redirect('mybookings_page')       
+        return redirect('mybookings_page')
     if request.method == 'POST':
         form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
@@ -54,5 +54,7 @@ def edit_booking(request, booking_id):
 
 def delete_booking(request, booking_id):
     booking = get_object_or_404(Booking, id=booking_id)
+    if request.user != booking.user:
+        return redirect('mybookings_page')
     booking.delete()
-    return redirect('mybookings_page')
+    return redirect('mybookings_page'
