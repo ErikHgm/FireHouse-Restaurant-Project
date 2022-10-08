@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Booking
 from .forms import BookingForm
+from django.contrib import messages
 
 
 def home(request):
@@ -44,6 +45,7 @@ def edit_booking(request, booking_id):
         form = BookingForm(request.POST, instance=booking)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Booking has been updated')
             return redirect('mybookings_page')
     form = BookingForm(instance=booking)
     context = {
@@ -57,4 +59,5 @@ def delete_booking(request, booking_id):
     if request.user != booking.user:
         return redirect('mybookings_page')
     booking.delete()
-    return redirect('mybookings_page'
+    messages.success(request, 'Booking has been deleted')
+    return redirect('mybookings_page')
