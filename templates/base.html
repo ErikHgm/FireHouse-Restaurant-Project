@@ -72,12 +72,12 @@
 
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
-        <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
-        <li><a class="nav-link scrollto" href="{% url 'menu' %}">Menu</a></li>
-        <li><a class="nav-link scrollto" href="#about">About</a></li>
-        <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-        <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}">Home</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}#menu">Menu</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}#about">About</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}#gallery">Gallery</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}#chefs">Chefs</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'home' %}#contact">Contact</a></li>
         {% if user.is_authenticated %}
         <li><a class="nav-link scrollto" href="{% url 'account_logout' %}">Logout</a></li>
         <li><a class="nav-link scrollto" href="{% url 'mybookings_page' %}">My Bookings</a></li>
@@ -94,10 +94,7 @@
 </header><!-- End Header -->
 
 <body>
-  {% block hero %}
-
-  {% endblock %}
-
+  
   <main id="main">
     {% block content %}
 
