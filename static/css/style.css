@@ -813,7 +813,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("/static/img/ahttps://res.cloudinary.com/dbfux6vq8/image/upload/v1664223670/static/img/about-bg.f0aecb99c308.jpgbout-bg.jpg") center center;
+  background: url("https://res.cloudinary.com/dbfux6vq8/image/upload/v1664223670/static/img/about-bg.f0aecb99c308.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
