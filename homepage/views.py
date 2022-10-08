@@ -8,10 +8,6 @@ def home(request):
     return render(request, 'index.html')
 
 
-def menu_page(request):
-    return render(request, 'menu_page.html')
-
-
 def booking_page(request):
     if request.method == 'POST':
         form = BookingForm(data=request.POST)
