@@ -40,8 +40,7 @@ TIME = (
 
 
 class Booking(models.Model):
-    """
-    Model that is used to store the data that the user enters in the
+    """Model that is used to store the data that the user enters in the
     booking form. The User Foreignkey associates each booking
     with a particular user.
     """
