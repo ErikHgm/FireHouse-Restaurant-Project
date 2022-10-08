@@ -27,13 +27,14 @@ def booking_page(request):
 
 
 def mybookings_page(request):
-    bookings = Booking.objects.all()
-
-    context = {
-       'bookings': bookings
+    if request.user.is_authenticated:
+        bookings = Booking.objects.filter(user=request.user)
+        context = {
+           'bookings': bookings
         }
-    return render(request, 'mybookings.html', context)
-
+        return render(request, 'mybookings.html', context)
+    else:
+        return redirect('home')
 
 def edit_booking(request, booking_id):
     booking = get_object_or_404(Booking, id=booking_id)
