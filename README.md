@@ -10,6 +10,7 @@ The website is for restaurant customers that are looking for a nice and pleasant
 ## TOC
 
 - [User Experience (UX)](#user-experience-ux)
+  - [Project goals](#project-goals)
   - [User Stories](#user-stories)
   - [Agile Methodology](#agile-methodology)
   - [Design](#design)
@@ -34,6 +35,8 @@ The website is for restaurant customers that are looking for a nice and pleasant
   - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
+-   ### Project goals  
+  
 
 -   ### User stories
 
@@ -45,11 +48,9 @@ The website is for restaurant customers that are looking for a nice and pleasant
     -   #### Returning Visitor Goals
         -  As a returning visitor I can create an account so I can make a reservation online.
         -  As a returning visitor I can view the menu to see if has changed.
-        -  As a returning visitor I can signup for the newsletter so that I can receive updates and news.
 
     -   #### Frequent User Goals
         -  As a frequent visitor I can login and find my current bookings.
-        -  As a frequent visitor I can view my bookings in the login page.
         -  As a frequent visitor I can change or cancel my booking in the login page.
 
 -   ### Agile methodology
@@ -211,15 +212,26 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+  -   #### First Time Visitor Goals
+      - As a first time visitor I can read and learn about the location and history and get a feel for the restaurant.
+        - When entering the webpage information about the restaurant is easily found by either scrolling or navigating using the links.
+      - As a first time visitor I can find out what kind of food they serve from their menu.  
+        - The Customer can directly find a large link to the menu when entering the webpage.
+      - As a first time visitor I can find information about how to make a reservation at the restaurant.  
+        - When entering the webpage the Customer can find the booking link immediately in the hero section or in the navbar.
+        
+  -   #### Returning Visitor Goals
+      -  As a returning visitor I can create an account so I can make a reservation online.
+          -  The Customer can use the signup link and quickly create an account login.
+      -  As a returning visitor I can view the menu to see if has changed.  
+          - When entering the webpage the Customer will find the menu first hand by clicking on the large button or scrolling.
+    
+  -   #### Frequent User Goals
+      -  As a frequent visitor I can login and find my current bookings.  
+          - As a frequent Customer can easily login upon entering the webpage. After being logged in, the Customer can view their current bookings in the navbar.
+      -  As a frequent visitor I can change or cancel my booking in the login page.  
+          - After being logged in, the Customer can delete their current bookings by going to the mybookings page in the navbar.
 
-
-
--   #### Returning Visitor Goals
-
-
-
--   #### Frequent User Goals
 
 
 ## Deployment
