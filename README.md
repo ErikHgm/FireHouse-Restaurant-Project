@@ -178,14 +178,6 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 -   #### Frequent User Goals
 
 
-### Further Testing
-
-
-
-
-
-
-
 ## Deployment
 
 ### Forking the GitHub Repository

@@ -55,7 +55,20 @@ Testing was done throughout the process while developing the project by the use 
 | Admin panel | Owner is able to delete bookings | Booking is deleted from current booking list | PASS |
 
 
+## Further Testing
+-   The website was thoroughly tested on different browsers including Google Chrome, Internet Explorer, Safar and Microsoft Edge. Extensive testing was performed to make sure all the links and navigation work properly. Testing on different devices to make sure it scales properly using the below tools:  
+    -   [Responsivetesttool](http://responsivetesttool.com/)
+    -   [Google Devtools](https://developer.chrome.com/docs/devtools/open/)  
+  
 
+-   [W3C Markup Validator](https://validator.w3.org/nu/) 
+    - No errors or warnings that are relevant was shown 
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+    - No errors or warnings that are relevant was shown 
+
+-   [Python Validator](https://extendsclass.com/python-tester.html#:~:text=To%20check%20your%20code%2C%20you,use%20this%20python%20checker%20tool.) 
+    - No errors or warnings that are relevant was shown 
 
 
 
