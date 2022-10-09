@@ -44,6 +44,8 @@ class Booking(models.Model):
     booking form. The User Foreignkey associates each booking
     with a particular user.
     """
+    class Meta:
+        unique_together = ('date', 'time', 'guests')
 
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="user_booking")
