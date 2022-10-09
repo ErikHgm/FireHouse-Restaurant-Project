@@ -75,8 +75,6 @@ The website is for restaurant customers that are looking for a nice and pleasant
     ![dbschema](docs/img/db_schema.png)  
 
 ## Features  
-Click on details below
-<details>  
 
 ### Navbar  
 - The navbar shows all the sections that the user can enter and provides a quick and easy means of navigating the site. The link to make a booking is enlarged to make it extra easy to find and use. 
@@ -145,9 +143,13 @@ Click on details below
 
 ![Footer](/docs/img/features/footer.png)  
 
-</details>
 
 ### Future Features
+  - Add functionality to check that the restaurant does not get overbooked, so that if the restaurant is full it is not possible to make a reservation.
+  - Add a contact form on the main page so visitors can contact the restaurant via email directly on the webpage.
+  - Add a confirmation page or modal when deleting a booking to confirm the user wants to delete the booking.
+  - Create functionality in the admin panel for the staff to be able to add and delete the amount of tables and seats in the restaurant and incorporate it into the booking function so that it can calculate available seats in the restaurant.
+  - Create functionality in the admin panel so that restaurant personnel can update the menu items on the webpage inside the admin panel. 
 
 ## Technologies Used
 
