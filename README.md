@@ -160,7 +160,14 @@ A separate document for testing can be viewed here: [TESTING.md](docs/TESTING.md
 
 |Bug | Solution | Status |
 |----|:---------|:-------|
-|Integrity error| Update the booking_page function | Fixed |
+|Integrity error| Update the booking_page function to add current User to form data | Fixed |
+|CSS background img not showing on Heroku| Update the url to the absolute link in cloudinary | Fixed |
+|A user can delete another user's bookings| Add authorization check to the delete_booking function | Fixed |
+|A user can update another user's bookings| Add authorization check to the edit_booking function | Fixed |
+|A user can show another user's bookings| Add authorization check to the mybookings_page function | Fixed |
+|All Navbar links not working | Add 'home' ID tags to the links | Fixed |
+
+
 
 #### Remaining Bugs
   - No known bugs remaining
