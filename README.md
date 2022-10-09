@@ -36,8 +36,8 @@ The website is for restaurant customers that are looking for a nice and pleasant
 
 ## User Experience (UX)
 -   ### Project goals  
+  The overall goal of the website is to create a restaurant webpage that is enticing for the visitors that generates an interest and curiosity to visit the restaurant. Visitors should be able to find general information about the restaurant as well as finding the menu offerings. In addition, visitors should be able to make a reservation for a table directly on the webpage. It will also provide a booking management admin panel for the staff members.  
   
-
 -   ### User stories
 
     -   #### First Time Visitor Goals
