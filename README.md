@@ -75,40 +75,75 @@ The website is for restaurant customers that are looking for a nice and pleasant
     ![dbschema](docs/img/db_schema.png)  
 
 ## Features  
+Click on details below
 <details>  
 
 ### Navbar  
-- Info  
+- The navbar shows all the sections that the user can enter and provides a quick and easy means of navigating the site. The link to make a booking is enlarged to make it extra easy to find and use. 
+&nbsp;  
+
 ![Navbar](/docs/img/features/navbar.png)  
 
 ### Hero  
-- Info  
-![Navbar](/docs/img/features/hero.png)  
+- The hero section makes for a great first impression of the site and thus the restaurant for the visitor. It also encompasses the links that the user most likely needs the most often which is the menu link and the link to make a reservation at the restaurant. It also includes a link to a presentation video about the restaurant to further market the restaurant to the visitor.
+&nbsp;  
+
+![Hero](/docs/img/features/hero.png)  
+
+### Menu
+- The menu section comes with images and descriptions of all the different options available at the restaurant. It also has a functionality to filter options based on type of meal. 
+&nbsp;  
+
+![Menu](/docs/img/features/menu.png)  
 
 ### About
-- Info  
-![Navbar](/docs/img/features/about.png)  
+- The about section incorporates some of the design and settings of the restaurant to further enhance its unique selling points.  
+&nbsp;  
+
+![About](/docs/img/features/about.png)  
 
 ### Testimonials  
-- Info  
+- The testimonials show what some of the previous customers says of the restaurant and is a method of providing social proof to increase customer conversion of the webpage.  
+&nbsp;  
+
 ![Testimonials](/docs/img/features/testimonials.png)  
 
 ### Gallery  
-- Info  
+- In the gallery visitors can see examples of its interior and what the restaurant looks like.  
+&nbsp;  
+
 ![Gallery](/docs/img/features/gallery.png)  
 
 ### Contact  
-- Info   
-![Navbar](/docs/img/features/contact.png)  
+- The contact section includes all the necessary information about the restaurant that the visitor may need to know about.  
+&nbsp;  
 
-### Footer  
-- Info   
-![Navbar](/docs/img/features/footer.png)  
+![Contact](/docs/img/features/contact.png)  
 
 ### Account signup/login  
-- Info   
-![Navbar](/docs/img/features/signup.png)
-![Navbar](/docs/img/features/login.png)  
+- The account pages where the user can create an account in order to make a registration as well as login as an existing users.  
+&nbsp;  
+
+![signup](/docs/img/features/signup.png)
+![login](/docs/img/features/login.png)  
+
+### Booking page  
+- In the booking page the customer can make a reservation using the form and save it. It will then show up in the customer's mybooking page.  
+&nbsp;  
+
+![Booking](/docs/img/features/booking.png) 
+
+### Mybookings  
+- The current bookings for a customer are shown on the mybooking page, that way the customer can get an overview of all bookings and check the date and time etc for each booking. On this page the customer can also click on the "change" button and make necessary updates to the booking that will be saved and shown on the mybooking page. The customer can also delete a booking by clicking on the "delete" button. It will then disappear from the list of reservations.
+&nbsp;  
+
+![Mybookings](/docs/img/features/mybookings.png) 
+
+### Footer  
+- The footer contains the essential information about the restaurant for easy access to the most relevant contact information and social media links on all pages throughout the website.  
+&nbsp;  
+
+![Footer](/docs/img/features/footer.png)  
 
 </details>
 
