@@ -25,6 +25,9 @@ def booking_page(request):
             booking_form.save()
             messages.success(request, 'Booking is confirmed')
             return redirect('mybookings_page')
+        else:
+            messages.error(
+                request, 'Invalid, incorrect info or double booking')
     form = BookingForm()
     context = {
         'form': form
