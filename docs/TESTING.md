@@ -16,7 +16,7 @@ Testing was done throughout the process while developing the project by the use 
 | - | - | - | - |
 | Customer can view menu page | Test menu link and child links within the menu page | Being able to open and browse the menu without errors | PASS |
 
-#### Registration
+#### Registration 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Customer signup page | Test link is working | Customer is directed to the signup page | PASS |
@@ -27,7 +27,6 @@ Testing was done throughout the process while developing the project by the use 
 | Customer signup - Form validation | Submit already taken username | Form validation prompts the user | PASS |
 | Customer login page | Test link is working | Customer is directed to the login page | PASS |
 | Customer login - Form validation | Submit incorrect password | Form validation prompts the user | PASS |
-| Customer login - Form validation | Submit incorrect name | Form validation prompts the user | PASS |
 | Customer login - Form validation | Submit incorrect name | Form validation prompts the user | PASS |
 | Customer Logout page | Test link is working | User is logged out | PASS |
 
