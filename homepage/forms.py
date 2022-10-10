@@ -16,6 +16,19 @@ class BookingForm(forms.ModelForm):
     It will then be displayed in the Booking template
     in order for the user to make their booking using the form.
     """
+    name = forms.CharField(
+        widget=forms.TextInput(attrs={'placeholder': 'Name'}),
+    )
+
+    email = forms.EmailField(
+        widget=forms.TextInput(attrs={'placeholder': 'name@example.com'}),
+    )
+
+    phone = forms.IntegerField(
+        required=False,
+        widget=forms.TextInput(attrs={'placeholder': '+123456789'}),
+    )
+
     class Meta:
         model = Booking
         exclude = ('user', )
