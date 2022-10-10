@@ -138,6 +138,11 @@ The website is for restaurant customers that are looking for a nice and pleasant
 
 ![Mybookings](/docs/img/features/mybookings.png) 
 
+### Delete booking  
+- When clicking on the "delete" button in the mybookings page, a warning message is shown to prevent Customers from deleting their bookings by mistake. 
+
+![Delete](/docs/img/features/delete.png) 
+
 ### Footer  
 - The footer contains the essential information about the restaurant for easy access to the most relevant contact information and social media links on all pages throughout the website.  
 &nbsp;  
